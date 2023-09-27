@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+body {
+  background-color: hsl(218, 23%, 16%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.memes-container{
+    height: 150px;
+    background: rgb(231, 180, 122);
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    max-width: 500px;
+    min-width: 500px;
+    text-align: center;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+.button{
+    height: 30px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    cursor: pointer;
+    background: rgb(223, 121, 3);
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.button:hover{
+    background-color: rgb(223, 157, 34);
+    box-shadow: 0px 0px 1px 1px  rgb(223, 157, 34);
+    transition: all 1s;
+}
